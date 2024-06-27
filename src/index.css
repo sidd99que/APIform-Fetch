@@ -1,0 +1,111 @@
+.app-container {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .custom-card {
+    background-color: #333; /* Dark grey background for the card */
+    border: none; /* Remove border */
+    color: #fff; /* White text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 10px;
+  }
+  
+  .custom-button {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none; /* Remove border */
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  padding: 20px;
+}
+
+.custom-card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.custom-card-img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.custom-button {
+  background-color: #ff7f50;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #ff6347;
+}
+
+.card-body {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+/* App.css */
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table td {
+  padding: 8px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.edit-button, .delete-button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  border: none;
+  color: #ffffff;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.button-row {
+  text-align: center;
+}
+  
